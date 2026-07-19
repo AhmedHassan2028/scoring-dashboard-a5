@@ -182,3 +182,114 @@
     border-right-color: var(--border);
   }
 }
+
+.app-main {
+  padding: 30px 30px 0 30px;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  color: white;
+  padding: 12px 24px;
+}
+
+.app-header h1 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.language-toggle {
+  display: flex;
+  gap: 0;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.language-toggle button {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  border: none;
+  padding: 6px 14px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.language-toggle button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(255, 255, 255);
+}
+
+.language-toggle button.active {
+  background-color: rgb(255, 255, 255);
+  color: #1c1b1b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+.metric-cards {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.metric-card {
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  padding: 16px 20px;
+  flex: 1;
+}
+
+.metric-label {
+  font-size: 13px;
+  color: #666;
+  margin: 0 0 8px 0;
+}
+
+.metric-value {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.metric-stat {
+  font-size: 13px;
+  color: #888;
+  margin: 4px 0 0 0;
+}
+
+.chart-card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: 1px solid #e3dede;
+  padding: 20px 24px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.chart-card h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 4px 0;
+}
+
+.chart-subtitle {
+  font-size: 13px;
+  color: #5f5f5f;
+  margin: 0 0 16px 0;
+}
